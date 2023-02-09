@@ -1,0 +1,18 @@
+{
+  "name": "auth-system",
+  "version": "1.0.0",
+  "description": "Two factor authentication system with mobile no. or email",
+  "main": "app.js",
+  "scripts": {
+    "devstart": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Sahil & Yasha",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}

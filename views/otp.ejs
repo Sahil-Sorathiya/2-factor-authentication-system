@@ -1,0 +1,29 @@
+<%- include('./partials/header') %>
+
+    <!--? Enter OTP Form -->
+    <div class="container" style="height: 80vh;">
+        <div class="text-center mt-3 mb-3"><h1 class="d-inline-block">Forgot Password</h1></div>
+        <div class="row justify-content-center">
+            <div class="col-11 col-sm-10 col-md-8 col-lg-6">
+                <form action="/action_page.js" method="post">
+                    <!-- otp -->
+                    <div class="mb-3">
+                        <label for="exampleInputOtp" class="form-label">Enter OTP</label>
+                        <input type="number" class="form-control" id="exampleInputOtp" aria-describedby="emailHelp">
+                    </div>
+                    <!-- Register or Login -->
+                    <div class="mb-3">
+                        <a href="/register" class="text-decoration-none""> <strong>Register</strong></a></label>
+                        or
+                        <a href="/login" class="text-decoration-none""> <strong>Login</strong></a></label>
+                    </div>
+                <!-- submit btn -->
+                <button type=" submit" class="btn shadow-none"
+                            style="background-color: #6610f2; color: #ffffff;">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <%- include('./partials/footer') %>
